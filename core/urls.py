@@ -27,6 +27,6 @@ from django.http import HttpResponse
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('app.urls'))
+    path('', include('manager_marketplace.urls'))
     # path('teste/', my_view)
 ]
